@@ -1,0 +1,28 @@
+@use './varialbles/colors' as c;
+@use './variables/fonts' as f;
+
+body {
+    background-color: c.$bg;
+    font-family: f.$text;
+    color: c.$text;
+}
+
+a {
+    text-decoration: none;
+    color: c.$primary;
+    &:hover {
+        color: c.$secondary;
+    }
+    &:visited {
+        color: c.$primary;
+    }
+}
+
+h1,
+h2,
+h3
+{
+    font-family: f.$heading;
+    color: c.$primary;
+
+}
