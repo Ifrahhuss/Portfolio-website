@@ -1,5 +1,5 @@
-@use './varialbles/colors' as c;
-@use './variables/fonts' as f;
+@use './variables/_colors' as c;
+@use './variables/_fonts' as f;
 
 body {
     background-color: c.$bg;
